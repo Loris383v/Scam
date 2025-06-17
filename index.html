@@ -5,27 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>You've been scammed</title>
   <style>
-    body {
+    html, body {
+      margin: 0;
+      padding: 0;
       background-color: #121212;
       color: #f1f1f1;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      margin: 0;
+      min-height: 100dvh;
       padding: 2rem;
+      box-sizing: border-box;
       text-align: center;
     }
 
     .container {
       max-width: 600px;
+      width: 100%;
     }
 
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin-bottom: 1rem;
       color: #ff5252;
+      word-break: break-word;
     }
 
     p {
@@ -36,7 +43,6 @@
     .warning {
       margin-top: 2rem;
       font-weight: bold;
-      
       color: red;
     }
 
@@ -51,18 +57,25 @@
     a.learn-more:hover {
       text-decoration: underline;
     }
+
+    small {
+      display: block;
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>You just got scammed</h1>
-    <p>Thanksfully, this was to aware you about how easily you can be fooled, so this wasn't a real scam. But if it had been, you might've lost your data, your account, or even your money.</p>
-    <p>This page is here to remind you something simple: <strong>Always double-check links</strong> before clicking, and <strong>never</strong> click suspicious links. Scammers are everywhere, and they're counting on you being careless. You currently being on this page prove you can be a target for scammers</p>
+    <p>Luckily for you, this was just to show how easily you can be tricked, so this wasn't a real scam. But if it had been, you might've lost your data, your account, or even your money.</p>
+    <p>This page is here to remind you something simple: <strong>Always double-check links</strong> before clicking, and <strong>never</strong> click suspicious links. Scammers are everywhere, and they're counting on you being careless. Your presence on this page proves you are a potential target</p>
     <p>Don't trust random links. Don't enter your passwords unless you're sure the site is legit. Stay skeptical. Stay smart.</p>
     <h3 class="warning">Next time, it could be real.</h3>
     <a class="learn-more" href="https://www.phishing.org/what-is-phishing" target="_blank" rel="noopener noreferrer">
       Learn how to protect yourself
-    </a> <small>(Phishing.org is a real, trusted website—but maybe start getting used to verifying yourself instead of clicking them.)</small>
+    </a> <small>(Phishing.org is a real, trusted website—but maybe start getting used to verifying links yourself instead of clicking them blindly, and go search on google or whatever search engine you are using.)</small>
   </div>
 </body>
 </html>
