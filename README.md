@@ -1,2 +1,2 @@
 # Scam
-Be scammed nerd. Next time could be real.
+Be scammed you fool. Next time could be real.
