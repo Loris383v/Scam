@@ -1,2 +1,2 @@
 # Scam
-Be scammed you fool. Next time could be real.
+Why tf did I even do this repo?
